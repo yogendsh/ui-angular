@@ -1,0 +1,13 @@
+<table>
+    <tr><th>index</th>
+        <th>Name</th>
+        <th>Id</th>
+        <th>Company</th></tr>
+ <tr *ngFor="let data of tableData;index as i">
+     <td>{{i}}</td>
+            <td>{{data.Id}}</td>
+            <td>{{data.Name}}</td>
+            <td>{{data.Company}}</td>
+        </tr>
+    
+</table>
